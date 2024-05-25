@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Timezone Information</title>
+</head>
+<body>
+    <div id="container">
+        <h1>TimeZone API</h1>
+        <h1>Your Current Timezone</h1>
+        <!-- Display area for the user's current timezone -->
+        <div id="details">
+            <p>Name Of Time Zone :</p>
+            <span style="display: flex; gap: 300px;">
+                <p>Lat:</p>
+                <p>Long:</p>
+            </span>
+            <p>Offset STD:</p>
+            <p>Offset STD Seconds :</p>
+            <p>Offset DST :</p>
+            <p>Offset DST Seconds:</p>
+            <p>Country:</p>
+            <p>Postcode:</p>
+            <p>City:</p>
+        </div>
+    </div>
+    <section>
+        <h1>Enter Address</h1>
+        <form action="">
+            <input type="search" placeholder="Search Address" id="address">
+            <button type="button" onclick="searchAddress()">Search</button>
+        </form>
+
+        <div id="show-details">
+
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
